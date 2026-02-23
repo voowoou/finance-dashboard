@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --color-primary: #101828;
+  --color-accent: #155eef;
+  --color-muted: #516778;
+  --color-primary-bg: #fff;
+  --color-accent-bg: #f5f8ff;
+  --color-muted-bg: #f9fafb;
+  --color-success: #0b9055;
+  --color-bg: #dcfae6;
+  --color-success: #0b9055;
+  --color-success-bg: #dcfae6;
+  --color-failure: #d92d20;
+  --color-failure-bg: #fee4e2;
+
+  --color-category-house: #9e77ed;
+  --color-category-card: #f04438;
+  --color-category-transport: #0ba5ec;
+  --color-category-groceries: #17b26a;
+  --color-category-shopping: #4e5ba6;
+
+  /* Layout */
+  --font-size-xxl: 2.25rem;
+  --font-size-xl: 1.875rem;
+  --font-size-l: 1.125rem;
+  --font-size-m: 1rem;
+  --font-size-s: 0.875rem;
+
+  --font-weight-semi-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  --border-radius-l: 12px;
+  --border-radius-m: 8px;
+  --border-radius-s: 6px;
+}
