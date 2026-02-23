@@ -1,0 +1,16 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "amount": 500,
+      "category": "food",
+      "type": "expense",
+      "date": "2024-03-25T12:00:00Z",
+      "comment": "Lunch"
+    }
+  ],
+  "categories": [
+    { "id": "food", "name": "Еда" },
+    { "id": "salary", "name": "Зарплата" }
+  ]
+}
