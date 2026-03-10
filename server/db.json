@@ -2,15 +2,92 @@
   "transactions": [
     {
       "id": "1",
-      "amount": 500,
-      "category": "food",
+      "amount": 45000,
+      "category": "house",
       "type": "expense",
-      "date": "2024-03-25T12:00:00Z",
-      "comment": "Lunch"
+      "date": "2024-03-01T10:00:00Z",
+      "description": "Monthly Rent"
+    },
+    {
+      "id": "2",
+      "amount": 1200,
+      "category": "transportation",
+      "type": "expense",
+      "date": "2024-03-02T08:30:00Z",
+      "description": "Taxi ride"
+    },
+    {
+      "id": "3",
+      "amount": 3500,
+      "category": "groceries",
+      "type": "expense",
+      "date": "2024-03-03T18:45:00Z",
+      "description": "Weekly supermarket haul"
+    },
+    {
+      "id": "4",
+      "amount": 15000,
+      "category": "shopping",
+      "type": "expense",
+      "date": "2024-03-05T14:20:00Z",
+      "description": "New sneakers"
+    },
+    {
+      "id": "5",
+      "amount": 800,
+      "category": "restaurants",
+      "type": "expense",
+      "date": "2024-03-06T13:00:00Z",
+      "description": "Business lunch"
+    },
+    {
+      "id": "6",
+      "amount": 2500,
+      "category": "entertainment",
+      "type": "expense",
+      "date": "2024-03-08T20:00:00Z",
+      "description": "Cinema tickets"
+    },
+    {
+      "id": "7",
+      "amount": 5000,
+      "category": "credit_card",
+      "type": "expense",
+      "date": "2024-03-10T11:00:00Z",
+      "description": "Credit card minimum payment"
+    },
+    {
+      "id": "8",
+      "amount": 2000,
+      "category": "groceries",
+      "type": "expense",
+      "date": "2024-03-12T09:15:00Z",
+      "description": null
+    },
+    {
+      "id": "9",
+      "amount": 600,
+      "category": "transportation",
+      "type": "expense",
+      "date": "2024-03-14T17:40:00Z",
+      "description": "Gas station"
+    },
+    {
+      "id": "10",
+      "amount": 12000,
+      "category": "shopping",
+      "type": "expense",
+      "date": "2024-03-15T16:00:00Z",
+      "description": "Keyboard mechanical"
     }
   ],
   "categories": [
-    { "id": "food", "name": "Еда" },
-    { "id": "salary", "name": "Зарплата" }
+    { "id": "house", "name": "House" },
+    { "id": "credit_card", "name": "Credit Card" },
+    { "id": "transportation", "name": "Transportation" },
+    { "id": "groceries", "name": "Groceries" },
+    { "id": "shopping", "name": "Shoping" },
+    { "id": "restaurants", "name": "Restaurants" },
+    { "id": "entertainment", "name": "Entertainment" }
   ]
 }
