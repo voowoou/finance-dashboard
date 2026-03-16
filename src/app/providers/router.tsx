@@ -1,4 +1,5 @@
 import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { ROUTES } from '@/shared/config';
 import { OverviewPage } from '@/pages/OverviewPage';
 import { MainLayout } from '../layout/MainLayout';
 
@@ -9,14 +10,14 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Navigate to="/overview" replace />,
+        element: <Navigate to={ROUTES.OVERVIEW} replace />,
       },
       {
-        path: '/overview',
+        path: ROUTES.OVERVIEW,
         element: <OverviewPage />,
       },
       {
-        path: '/transactions',
+        path: ROUTES.TRANSACTIONS,
         element: <div />,
       },
     ],

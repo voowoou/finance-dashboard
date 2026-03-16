@@ -27,11 +27,11 @@
   --font-size-m: 1rem; /* 16px */
   --font-size-s: 0.875rem; /* 14px */
 
-  --line-height-xxl: 1.22; /* 36px */
-  --line-height-xl: 1.27; /* 30px */
-  --line-height-l: 1.56; /* 18px */
-  --line-height-m: 1.5; /* 16px */
-  --line-height-s: 1.43; /* 20px */
+  --line-height-xxl: 1.22; /* for 36px */
+  --line-height-xl: 1.27; /* for 30px */
+  --line-height-l: 1.56; /* for 18px */
+  --line-height-m: 1.5; /* for 16px */
+  --line-height-s: 1.43; /* for 20px */
 
   --font-weight-semi-bold: 600;
   --font-weight-medium: 500;
