@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { formatDate } from '@/shared';
+import { formatDate } from '@/shared/lib';
 import { categoryMap } from '../../model/consts/transactionCategoryMap';
 import type { Transaction } from '../../model/types/transaction';
 import s from './TranactionCard.module.css';

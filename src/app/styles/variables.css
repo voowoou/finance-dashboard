@@ -3,10 +3,11 @@
   --color-primary: #101828;
   --color-accent: #155eef;
   --color-muted: #516778;
+  --color-muted--hover: #3f596d;
   --color-primary-bg: #fff;
+  --color-primary-bg--hover: #eff6ff;
   --color-accent-bg: #f5f8ff;
   --color-muted-bg: #f9fafb;
-  --color-success: #0b9055;
   --color-bg: #dcfae6;
   --color-success: #0b9055;
   --color-success-bg: #dcfae6;
@@ -20,11 +21,17 @@
   --color-category-shopping: #4e5ba6;
 
   /* Layout */
-  --font-size-xxl: 2.25rem;
-  --font-size-xl: 1.875rem;
-  --font-size-l: 1.125rem;
-  --font-size-m: 1rem;
-  --font-size-s: 0.875rem;
+  --font-size-xxl: 2.25rem; /* 36px */
+  --font-size-xl: 1.875rem; /* 30px */
+  --font-size-l: 1.125rem; /* 18px */
+  --font-size-m: 1rem; /* 16px */
+  --font-size-s: 0.875rem; /* 14px */
+
+  --line-height-xxl: 1.22; /* 36px */
+  --line-height-xl: 1.27; /* 30px */
+  --line-height-l: 1.56; /* 18px */
+  --line-height-m: 1.5; /* 16px */
+  --line-height-s: 1.43; /* 20px */
 
   --font-weight-semi-bold: 600;
   --font-weight-medium: 500;
@@ -33,4 +40,11 @@
   --border-radius-l: 12px;
   --border-radius-m: 8px;
   --border-radius-s: 6px;
+
+  /* Effects */
+  --border-style: 1px solid #eceff2;
+  --border-style--hover: 1px solid #cbd2d9;
+  --border-style--focus: 1px solid var(--color-accent);
+  --box-shadow: 0 1px 2px rgb(16 24 40 / 5%);
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -1,4 +1,4 @@
-import { baseApi } from '@/shared';
+import { baseApi } from '@/shared/api';
 import type { Transaction } from '../model/types/transaction';
 
 const transactionApi = baseApi.injectEndpoints({
