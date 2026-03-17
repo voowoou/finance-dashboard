@@ -4,12 +4,11 @@
   background: var(--color-primary-bg);
   border-bottom: var(--border-style);
   padding: 0 80px;
+  display: flex;
+  align-items: center;
 }
 
 .headerContent {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 20px 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;

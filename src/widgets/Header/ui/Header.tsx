@@ -7,7 +7,7 @@ import s from './Header.module.css';
 export const Header = () => {
   return (
     <header className={s.header}>
-      <div className={s.headerContent}>
+      <div className={clsx(s.headerContent, 'container')}>
         <div className={s.logoContainer}>
           <LogoIcon />
           <FinancyIcon />

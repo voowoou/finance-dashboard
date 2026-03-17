@@ -1,11 +1,16 @@
 import { Header } from '@/widgets';
 import { Outlet } from 'react-router-dom';
+import s from './MainLayout.module.css';
 
 export const MainLayout = () => {
   return (
-    <main>
+    <>
       <Header />
-      <Outlet />
-    </main>
+      <main className={s.main}>
+        <div className="container">
+          <Outlet />
+        </div>
+      </main>
+    </>
   );
 };
